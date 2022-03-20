@@ -1,1 +1,1 @@
-web: waitress-serve --port=8000 AuctionSite.wsgi:application
+web: waitress-serve --port=$PORT AuctionSite.wsgi:application
