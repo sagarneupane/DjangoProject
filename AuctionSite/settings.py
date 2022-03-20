@@ -149,3 +149,5 @@ STATICFILES_DIRS = [
 
 MEDIA_ROOT= os.path.join(BASE_DIR, 'media/')
 MEDIA_URL= "/media/"
+
+CSRF_TRUSTED_ORIGINS = ['auction-bidding.herokuapp.com','127.0.0.1']
