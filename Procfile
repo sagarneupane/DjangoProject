@@ -1,1 +1,1 @@
-web: gunicorn AuctionSite.wsgi --log-file
+web: waitress-serve --port=8000 AuctionSite.wsgi:application
