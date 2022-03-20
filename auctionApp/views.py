@@ -218,7 +218,7 @@ def ViewProducts(request):
     Context = {'myEntry':Entries,'timeEntry':TimeEntry,'dateToday':date_today,'datetime':date_for_site}
     
 
-    return render(request,'ViewProducts.html',Context)
+    return render(request,'viewProducts.html',Context)
 #  ================================== End of view Products Fuction ==========================
 
 
